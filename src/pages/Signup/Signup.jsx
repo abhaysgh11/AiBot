@@ -29,13 +29,21 @@
     };
 
     return (
-        <div className="flex items-center justify-center min-h-screen p-4 px-[6rem] bg-[url(/Users/abhay/Desktop/DP/DITU/public/images/bg.png)]">
+        <div className="flex items-center justify-center min-h-screen p-4 px-[6rem] bg-[url(public/images/loginbg.jpg)]">
         {/* Left Section */}
         <div className="w-1/2 p-8 space-y-6 flex justify-between gap-[2rem] flex-col">
             <div>
             <div className="text-[2rem] font-bold">Welcome to SkillsMantri</div>
             <div>
-                .............
+                Signup to create your account and begin with your transforming journey!
+            </div><br></br>
+            <div style={{alignItems: "bottom", justifyContent: "center", display: "flex"}}>
+                <img
+                src="public/images/login.png"
+                className="w-[10%]"
+                alt="Authentication background"
+                style={{width: "550px", height: "600px", borderRadius: "40px"}}
+                />
             </div>
             </div>
             <div>

@@ -142,7 +142,7 @@ export default function Login() {
 
     return (
         <PageLayout>
-        <div className="flex items-center justify-center min-h-screen p-4 px-[6rem] bg-[url(../../images/bg.png)]">
+        <div className="flex items-center justify-center min-h-screen p-4 px-[6rem] bg-[url(public/images/loginbg.jpg)]">
             <div className="w-1/2 p-8 space-y-6 flex justify-between gap-[2rem] flex-col">
             <div>
                 <div className="text-[2rem] font-bold">Welcome Back!</div>
@@ -152,9 +152,10 @@ export default function Login() {
             </div>
             <div>
                 <img
-                src="../../images/bg.png"
+                src="public/images/login.png"
                 className="w-[10%]"
                 alt="Authentication background"
+                style={{width: "550px", height: "500px", borderRadius: "40px"}}
                 />
             </div>
             </div>
