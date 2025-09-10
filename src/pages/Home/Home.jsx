@@ -413,69 +413,94 @@
     const items = [
         {name: "CSS",
         img: "public/images/css.jpeg",
-        link: ""
+        link: "https://www.w3schools.com/css/"
         },
         {
         name: "HTML",
         img: "public/images/HTML.png",
-        link: ""
+        link: "https://www.w3schools.com/html/default.asp"
         },
         {
-        name: "React",
+        name: "ReactJS",
         img: "public/images/reactjs.jpg",
-        link: ""
+        link: "https://www.w3schools.com/react/default.asp"
         },
         {
         name: "JavaScript",
         img: "public/images/js.png",
-        link: ""
+        link: "https://www.w3schools.com/js/default.asp"
         },
         {
-        name: "NextJS",
+        name: "NodeJS",
         img: "public/images/nextjs.webp",
-        link: ""
+        link: "https://www.w3schools.com/nodejs/default.asp"
         },        {
         name: "MongoDB",
         img: "public/images/mongodb.png",
-        link: ""
+        link: "https://www.w3schools.com/mongodb/"
         },
         {
         name: "AI",
         img: "public/images/artificial-intelligence.jpg",
-        link: ""
+        link: "https://cloud.google.com/document-ai/docs"
         },        
         {
         name: "Cloud Computing",
         img: "public/images/cloud-computing.png",
-        link: ""
+        link: "https://www.geeksforgeeks.org/cloud-computing/cloud-computing-tutorial/"
         },
         {
         name: "ExpressJS",
         img: "public/images/express-logo.png",
-        link: ""
+        link: "https://devdocs.io/express/"
         },
         {
-        name: "OOPs",
+        name: "OOP",
         img: "public/images/oops.webp",
-        link: ""
+        link: "https://www.w3schools.com/java/java_oop.asp"
         }
     ];
     
     const videos = [
         {
-            id: "azrW-87DFAU",
-            title: "Munwar",
-            link: "https://youtu.be/azrW-87DFAU?si=hQh_Qx5Bm_5DIh9v",
+            id: "J6mDkcqU_ZE",
+            title: "MongoDB 1Hour Tutorial",
+            link: "https://youtu.be/J6mDkcqU_ZE?si=gg6_qBiZwpBjQFDw",
         },
         {
-            id: "LXb3EKWsInQ",
+            id: "HcOc7P5BMi4",
             title: "HTML Basics",
-            link: "https://www.youtube.com/watch?v=LXb3EKWsInQ",
+            link: "https://youtu.be/HcOc7P5BMi4?si=4pEEWuOXeLdP_cF_",
         },
         {
             id: "Ke90Tje7VS0",
             title: "Learn React in 1 Hour",
             link: "https://www.youtube.com/watch?v=Ke90Tje7VS0",
+        },
+        {
+            id: "EUtlj7xdO1o",
+            title: "CSS Full Course",
+            link: "https://youtu.be/EUtlj7xdO1o?si=W0C2KMoF75PK555u",
+        },
+        {
+            id: "JxgmHe2NyeY",
+            title: "Machine Learning Full Course",
+            link: "https://youtu.be/JxgmHe2NyeY?si=kPdA7dshtqCrutG4",
+        },
+                {
+            id: "70oYrSnRgoI",
+            title: "Cloud Computing Roadmap",
+            link: "https://youtu.be/70oYrSnRgoI?si=Wpf6OteEnfCe8MqE",
+        },
+                {
+            id: "k7o9R6eaSes",
+            title: "NextJS Beginner to Advanced",
+            link: "https://youtu.be/k7o9R6eaSes?si=5FQDwGN-LI3vRddH",
+        },
+        {
+            id: "CgkZ7MvWUAA",
+            title: "React Full Course",
+            link: "https://youtu.be/CgkZ7MvWUAA?si=VxkHZwxd-lFms6i6",
         },
         ];
 
@@ -503,23 +528,92 @@
 
             <div className="flex gap-4" style={{backgroundColor: "#6e11b0", padding: "10px 20px", color: "white"}}>
         <a
-        href="/css"
+        href="https://www.w3schools.com/css/"
         className="bg-white text-purple-700 px-4 py-2 rounded font-semibold hover:bg-gray-200 transition" /*style={{width: "100px", textAlign: "center"}}*/
         >
         CSS
         </a>
         <a
-        href="/html"
+        href="https://www.w3schools.com/html/default.asp"
         className="bg-white text-purple-700 px-4 py-2 rounded font-semibold hover:bg-gray-200 transition"
         >
         HTML
         </a>
         <a
-        href="/react"
+        href="https://www.w3schools.com/mongodb/"
         className="bg-white text-purple-700 px-4 py-2 rounded font-semibold hover:bg-gray-200 transition"
         >
-        React
+        MongoDB
         </a>
+        <a
+        href="https://www.geeksforgeeks.org/cloud-computing/cloud-computing-tutorial/"
+        className="bg-white text-purple-700 px-4 py-2 rounded font-semibold hover:bg-gray-200 transition"
+        >
+        Cloud Computing
+        </a>
+        
+        <a
+        href="https://cloud.google.com/document-ai/docs"
+        className="bg-white text-purple-700 px-4 py-2 rounded font-semibold hover:bg-gray-200 transition"
+        >
+        AI
+        </a>
+
+        <a
+        href="https://devdocs.io/express/"
+        className="bg-white text-purple-700 px-4 py-2 rounded font-semibold hover:bg-gray-200 transition"
+        >
+        ExpressJS
+        </a>
+
+        <a
+        href="https://www.w3schools.com/java/java_oop.asp"
+        className="bg-white text-purple-700 px-4 py-2 rounded font-semibold hover:bg-gray-200 transition"
+        >
+        OOP
+        </a>
+
+        <a
+        href="https://www.w3schools.com/sql/default.asp"
+        className="bg-white text-purple-700 px-4 py-2 rounded font-semibold hover:bg-gray-200 transition"
+        >
+        SQL
+        </a>
+
+        <a
+        href="https://www.w3schools.com/js/default.asp"
+        className="bg-white text-purple-700 px-4 py-2 rounded font-semibold hover:bg-gray-200 transition"
+        >
+        Javascript
+        </a>
+
+        <a
+        href="https://www.w3schools.com/react/default.asp"
+        className="bg-white text-purple-700 px-4 py-2 rounded font-semibold hover:bg-gray-200 transition"
+        >
+        ReactJS
+        </a>
+
+        <a
+        href="https://www.w3schools.com/nodejs/default.asp"
+        className="bg-white text-purple-700 px-4 py-2 rounded font-semibold hover:bg-gray-200 transition"
+        >
+        NodeJS
+        </a>
+
+        <a
+        href="/https://ml-cheatsheet.readthedocs.io/en/latest/"
+        className="bg-white text-purple-700 px-4 py-2 rounded font-semibold hover:bg-gray-200 transition"
+        >
+        Machine Learning
+        </a>
+
+        <a
+        href="https://www.w3schools.com/dsa/"
+        className="bg-white text-purple-700 px-4 py-2 rounded font-semibold hover:bg-gray-200 transition"
+        >
+        DSA
+        </a>        
     </div>
 
 
@@ -632,14 +726,15 @@
         {/* About Section */}
         <div className="bg-purple-800 text-white p-6 mt-6 rounded-xl mx-6 flex justify-between">
             <div><h3 className="text-xl font-bold" style={{ fontSize: "2.5rem", color: "white"}}>About Us</h3><br></br>
-            <p className="mt-2" style={{ fontSize: "1.5rem", color: "white"}}>
-            We help developers analyze skills and stay updated with the latest
-            industry trends in web development.
+            <p className="mt-2" style={{ fontSize: "1.35rem", color: "white"}}>
+            At Skill Mantri, we believe growth begins with understanding your strengths and weaknesses.<br></br>In a fast-changing world, identifying skill gaps is key to staying ahead.<br></br> Our AI-powered chatbot provides personalized skill gap analysis, helping students, job seekers, and professionals evaluate their abilities, compare them with industry standards,<br></br>and pinpoint areas for improvement.              <br></br>Whether preparing for a career, aiming for a promotion, or exploring new skills,              <br></br>Skill Mantri serves as your personal mentor, guiding you toward continuous learning and growth.
+            <br></br>
+            With Skill Mantri, you don’t just identify gaps — you chart your path to success.
             </p>
             </div>
 
             <div style={{display: "flex", justifyContent: "right", alignItems: "top"}}>
-                <img src="public/images/homepage.jpeg" alt="About Us" style={{width: "400px", height: "400px", marginTop: "10px"}}>
+                <img src="public/images/homepage.jpeg" alt="About Us" style={{width: "900px", height: "400px", marginTop: "10px"}}>
                 </img>
             </div>
         </div>
@@ -725,7 +820,8 @@
         {/* Image (other half) */}
         <div className="w-full md:w-1/2 flex items-center justify-center">
         <img
-            src=""
+            src="public/images/homepage1.png"
+            style={{ width: "550px", height: "500px" }}
             alt="naya laao"
             className="rounded-xl shadow-lg object-cover w-full h-full"
         />
